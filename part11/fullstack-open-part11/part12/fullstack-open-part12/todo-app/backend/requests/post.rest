@@ -1,0 +1,8 @@
+POST http://localhost:3000/todos HTTP/1.1
+content-type: application/json
+
+{
+    "text": "Todo example app",
+    "done": "false"
+}
+
